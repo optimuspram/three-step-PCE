@@ -7,7 +7,7 @@ This code example illustrates the three-step-PCE approach using a two-variable a
 
 Kawai, S., & Shimoyama, K. (2014). Kriging-model-based uncertainty quantification in computational fluid dynamics. In 32nd AIAA Applied Aerodynamics Conference (p. 2737)
 
-The input variables are the Mach number, modelled with a normal distribution (mean = 0.729, standard deviation = 0.005), and the angle of attack, also with a normal distribution (mean = 2.31 degrees, standard deviation = 0.2 degrees). The output of interest is the pressure coefficient  at the upper surface of the airfoil. 
+with modifications to include two random input variables. The input variables are the Mach number, modelled with a normal distribution (mean = 0.729, standard deviation = 0.005), and the angle of attack, also with a normal distribution (mean = 2.31 degrees, standard deviation = 0.2 degrees). The output of interest is the pressure coefficient  at the upper surface of the airfoil. 
 
 In this demonstration, we illustrate the deployment of the three-step PCE, beginning with clustering, then classification, followed by local model building. We also show how to apply explainability modules (such as SHAP, PDP, ICE) and Sobol indices to derive key insights and visualize the inner workings of the input-output relationship.
 
